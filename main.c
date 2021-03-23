@@ -38,7 +38,7 @@ int isPrime(int number) {
 
     printf("%s", "Please enter a number between 0 and 100: \n");
 
-    printf("%n", &number);
+    scanf("%n", &number);
 
     if (number % 2 == 0 && number != 2) {
         printf("%s", "The number is not prime\n");
