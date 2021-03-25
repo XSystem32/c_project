@@ -130,17 +130,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestProject
+# Target rules for targets named main
 
 # Build rule for target.
-TestProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestProject
-.PHONY : TestProject
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-TestProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/build
-.PHONY : TestProject/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named readS
+
+# Build rule for target.
+readS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 readS
+.PHONY : readS
+
+# fast build rule for target.
+readS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/build
+.PHONY : readS/fast
+
+#=============================================================================
+# Target rules for targets named primeNumber
+
+# Build rule for target.
+primeNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 primeNumber
+.PHONY : primeNumber
+
+# fast build rule for target.
+primeNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/build
+.PHONY : primeNumber/fast
 
 main.obj: main.c.obj
 
@@ -148,7 +174,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -157,7 +183,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -166,8 +192,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
+
+primeNumber.obj: primeNumber.c.obj
+
+.PHONY : primeNumber.obj
+
+# target to build an object file
+primeNumber.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.obj
+.PHONY : primeNumber.c.obj
+
+primeNumber.i: primeNumber.c.i
+
+.PHONY : primeNumber.i
+
+# target to preprocess a source file
+primeNumber.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.i
+.PHONY : primeNumber.c.i
+
+primeNumber.s: primeNumber.c.s
+
+.PHONY : primeNumber.s
+
+# target to generate assembly for a file
+primeNumber.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.s
+.PHONY : primeNumber.c.s
+
+readS.obj: readS.c.obj
+
+.PHONY : readS.obj
+
+# target to build an object file
+readS.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.obj
+.PHONY : readS.c.obj
+
+readS.i: readS.c.i
+
+.PHONY : readS.i
+
+# target to preprocess a source file
+readS.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.i
+.PHONY : readS.c.i
+
+readS.s: readS.c.s
+
+.PHONY : readS.s
+
+# target to generate assembly for a file
+readS.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.s
+.PHONY : readS.c.s
 
 # Help Target
 help:
@@ -177,10 +257,18 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... TestProject
+	@echo ... main
+	@echo ... primeNumber
+	@echo ... readS
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... primeNumber.obj
+	@echo ... primeNumber.i
+	@echo ... primeNumber.s
+	@echo ... readS.obj
+	@echo ... readS.i
+	@echo ... readS.s
 .PHONY : help
 
 

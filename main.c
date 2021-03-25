@@ -4,12 +4,8 @@ int resultS();
 #include <stdio.h>
 
 int main() {
-    int c;
-    readS(&c);
 
-    int f = (int) &c;
-
-    isPrime(f);
+    isPrime();
 
 }
 
@@ -38,9 +34,9 @@ int isPrime(int number) {
 
     printf("%s", "Please enter a number between 0 and 100: \n");
 
-    scanf("%n", &number);
+    scanf("%d", &number);
 
-    if (number % 2 == 0 && number != 2) {
+    if (number % 2 == 0 && number != 2 || number == 1 || number == 0) {
         printf("%s", "The number is not prime\n");
     } else {
         printf("%s", "The number is prime\n");

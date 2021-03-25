@@ -72,7 +72,9 @@ CMAKE_BINARY_DIR = C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TestProject.dir/all
+all: CMakeFiles/main.dir/all
+all: CMakeFiles/readS.dir/all
+all: CMakeFiles/primeNumber.dir/all
 
 .PHONY : all
 
@@ -82,36 +84,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TestProject.dir/clean
+clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/readS.dir/clean
+clean: CMakeFiles/primeNumber.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TestProject.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/TestProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target TestProject"
-.PHONY : CMakeFiles/TestProject.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TestProject.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TestProject.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/TestProject.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-TestProject: CMakeFiles/TestProject.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : TestProject
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/TestProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestProject.dir\build.make CMakeFiles/TestProject.dir/clean
-.PHONY : CMakeFiles/TestProject.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/readS.dir
+
+# All Build rule for target.
+CMakeFiles/readS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target readS"
+.PHONY : CMakeFiles/readS.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/readS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/readS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/readS.dir/rule
+
+# Convenience name for target.
+readS: CMakeFiles/readS.dir/rule
+
+.PHONY : readS
+
+# clean rule for target.
+CMakeFiles/readS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/clean
+.PHONY : CMakeFiles/readS.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/primeNumber.dir
+
+# All Build rule for target.
+CMakeFiles/primeNumber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target primeNumber"
+.PHONY : CMakeFiles/primeNumber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/primeNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/primeNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/primeNumber.dir/rule
+
+# Convenience name for target.
+primeNumber: CMakeFiles/primeNumber.dir/rule
+
+.PHONY : primeNumber
+
+# clean rule for target.
+CMakeFiles/primeNumber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/clean
+.PHONY : CMakeFiles/primeNumber.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
