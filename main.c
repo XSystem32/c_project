@@ -19,10 +19,10 @@ int readS(int c) {
     printf("Input a 2 digit decimal number between 0 and 99: \n");
 
     printf("Enter first number: \n");
-    scanf("%i", &a);
+    scanf("%2i", &a);
 
     printf("Enter second number: \n");
-    scanf("%i", &b);
+    scanf("%2i", &b);
 
     c =  a + b;
 
@@ -42,9 +42,9 @@ int isPrime(int number) {
     }
 
     if (check == 0) {
-        printf("%d is a prime number.", number);
+        printf("%d is a prime number.\n", number);
     } else {
-        printf("%d is not prime number.", number);
+        printf("%d is not prime number.\n", number);
     }
 
     return number;
