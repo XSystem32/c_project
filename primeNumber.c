@@ -10,7 +10,7 @@ int main() {
 
 void isPrime() {
     int number;
-    int check;
+    int check = 0;
     printf("Enter a number to chek: \n");
     scanf("%d", &number);
 

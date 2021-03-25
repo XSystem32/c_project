@@ -6,7 +6,7 @@ int main() {
 
     int c, number;
 
-    number = &c;
+    number = (int) &c;
 
 
     readS();
