@@ -1,11 +1,17 @@
-int readS(int *c);
 int isPrime();
-int resultS();
+int readS();
 #include <stdio.h>
 
 int main() {
 
-    isPrime();
+    int c, number;
+
+    number = &c;
+
+
+    readS();
+    isPrime(&number);
+
 
 }
 
@@ -14,7 +20,7 @@ int readS(int *c) {
     int a;
     int b;
 
-    printf("Input a 2 digit decimal number: \n");
+    printf("Input a 2 digit decimal number between 0 and 99: \n");
 
     printf("Enter first number: \n");
     scanf("%i", &a);
@@ -24,27 +30,26 @@ int readS(int *c) {
 
     c = (int *) (a + b);
 
-    printf("The result is: %d %s", (int)c, "\n");
+    printf("The result is: %d %s", *c, "\n");
 
     return *c;
 }
 
-
 int isPrime(int number) {
+    int check;
 
-    printf("%s", "Please enter a number between 0 and 100: \n");
+    for (int i = 2; i <= number/2; ++i) {
+        if (number % i == 0) {
+            check = 1;
+            break;
+        }
+    }
 
-    scanf("%d", &number);
-
-    if (number % 2 == 0 && number != 2 || number == 1 || number == 0) {
-        printf("%s", "The number is not prime\n");
+    if (check == 0) {
+        printf("%d is a prime number.", number);
     } else {
-        printf("%s", "The number is prime\n");
+        printf("%d is not prime number.", number);
     }
 
     return number;
-}
-
-int resultS() {
-
 }

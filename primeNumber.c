@@ -1,4 +1,4 @@
-int isPrime();
+void isPrime();
 
 #include <stdio.h>
 
@@ -8,11 +8,11 @@ int main() {
 
 }
 
-int isPrime(int number) {
+void isPrime() {
+    int number;
     int check;
     printf("Enter a number to chek: \n");
     scanf("%d", &number);
-
 
     for (int i = 2; i <= number/2; ++i) {
         if (number % i == 0) {
@@ -26,6 +26,4 @@ int isPrime(int number) {
     } else {
         printf("%d is not prime number.", number);
     }
-
-    return check;
 }
