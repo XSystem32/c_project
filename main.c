@@ -4,18 +4,14 @@ int readS();
 
 int main() {
 
-    int c, number;
+    int a = 1;
 
-    number = (int) &c;
-
-
-    readS();
-    isPrime(&number);
-
-
+    while (a =1) {
+        isPrime(readS());
+    }
 }
 
-int readS(int *c) {
+int readS(int c) {
 
     int a;
     int b;
@@ -28,15 +24,15 @@ int readS(int *c) {
     printf("Enter second number: \n");
     scanf("%i", &b);
 
-    c = (int *) (a + b);
+    c =  a + b;
 
-    printf("The result is: %d %s", *c, "\n");
+    printf("The result is: %d %s", c, "\n");
 
-    return *c;
+    return c;
 }
 
 int isPrime(int number) {
-    int check;
+    int check = 0;
 
     for (int i = 2; i <= number/2; ++i) {
         if (number % i == 0) {
