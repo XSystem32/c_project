@@ -168,86 +168,86 @@ primeNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/build
 .PHONY : primeNumber/fast
 
-main.obj: main.c.obj
+deliverable2.obj: deliverable2.c.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.c.s
-.PHONY : main.c.s
-
-primeNumber.obj: primeNumber.c.obj
-
-.PHONY : primeNumber.obj
+.PHONY : deliverable2.obj
 
 # target to build an object file
-primeNumber.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.obj
-.PHONY : primeNumber.c.obj
+deliverable2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/deliverable2.c.obj
+.PHONY : deliverable2.c.obj
 
-primeNumber.i: primeNumber.c.i
+deliverable2.i: deliverable2.c.i
 
-.PHONY : primeNumber.i
+.PHONY : deliverable2.i
 
 # target to preprocess a source file
-primeNumber.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.i
-.PHONY : primeNumber.c.i
+deliverable2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/deliverable2.c.i
+.PHONY : deliverable2.c.i
 
-primeNumber.s: primeNumber.c.s
+deliverable2.s: deliverable2.c.s
 
-.PHONY : primeNumber.s
+.PHONY : deliverable2.s
 
 # target to generate assembly for a file
-primeNumber.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/primeNumber.c.s
-.PHONY : primeNumber.c.s
+deliverable2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/deliverable2.c.s
+.PHONY : deliverable2.c.s
 
-readS.obj: readS.c.obj
+deliverable3and4.obj: deliverable3and4.c.obj
 
-.PHONY : readS.obj
+.PHONY : deliverable3and4.obj
 
 # target to build an object file
-readS.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.obj
-.PHONY : readS.c.obj
+deliverable3and4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/deliverable3and4.c.obj
+.PHONY : deliverable3and4.c.obj
 
-readS.i: readS.c.i
+deliverable3and4.i: deliverable3and4.c.i
 
-.PHONY : readS.i
+.PHONY : deliverable3and4.i
 
 # target to preprocess a source file
-readS.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.i
-.PHONY : readS.c.i
+deliverable3and4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/deliverable3and4.c.i
+.PHONY : deliverable3and4.c.i
 
-readS.s: readS.c.s
+deliverable3and4.s: deliverable3and4.c.s
 
-.PHONY : readS.s
+.PHONY : deliverable3and4.s
 
 # target to generate assembly for a file
-readS.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\readS.dir\build.make CMakeFiles/readS.dir/readS.c.s
-.PHONY : readS.c.s
+deliverable3and4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\primeNumber.dir\build.make CMakeFiles/primeNumber.dir/deliverable3and4.c.s
+.PHONY : deliverable3and4.c.s
+
+deliverable5.obj: deliverable5.c.obj
+
+.PHONY : deliverable5.obj
+
+# target to build an object file
+deliverable5.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/deliverable5.c.obj
+.PHONY : deliverable5.c.obj
+
+deliverable5.i: deliverable5.c.i
+
+.PHONY : deliverable5.i
+
+# target to preprocess a source file
+deliverable5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/deliverable5.c.i
+.PHONY : deliverable5.c.i
+
+deliverable5.s: deliverable5.c.s
+
+.PHONY : deliverable5.s
+
+# target to generate assembly for a file
+deliverable5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/deliverable5.c.s
+.PHONY : deliverable5.c.s
 
 # Help Target
 help:
@@ -260,15 +260,15 @@ help:
 	@echo ... main
 	@echo ... primeNumber
 	@echo ... readS
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... primeNumber.obj
-	@echo ... primeNumber.i
-	@echo ... primeNumber.s
-	@echo ... readS.obj
-	@echo ... readS.i
-	@echo ... readS.s
+	@echo ... deliverable2.obj
+	@echo ... deliverable2.i
+	@echo ... deliverable2.s
+	@echo ... deliverable3and4.obj
+	@echo ... deliverable3and4.i
+	@echo ... deliverable3and4.s
+	@echo ... deliverable5.obj
+	@echo ... deliverable5.i
+	@echo ... deliverable5.s
 .PHONY : help
 
 

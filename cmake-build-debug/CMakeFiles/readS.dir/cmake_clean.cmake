@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/readS.dir/readS.c.obj"
+  "CMakeFiles/readS.dir/deliverable2.c.obj"
   "libreadS.dll.a"
   "readS.exe"
   "readS.exe.manifest"

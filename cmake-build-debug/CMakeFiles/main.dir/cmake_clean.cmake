@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/main.c.obj"
+  "CMakeFiles/main.dir/deliverable5.c.obj"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

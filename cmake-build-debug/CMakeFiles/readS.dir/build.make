@@ -76,27 +76,27 @@ include CMakeFiles/readS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/readS.dir/flags.make
 
-CMakeFiles/readS.dir/readS.c.obj: CMakeFiles/readS.dir/flags.make
-CMakeFiles/readS.dir/readS.c.obj: ../readS.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/readS.dir/readS.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\readS.dir\readS.c.obj   -c C:\Users\eldre\CLionProjects\TestProject\readS.c
+CMakeFiles/readS.dir/deliverable2.c.obj: CMakeFiles/readS.dir/flags.make
+CMakeFiles/readS.dir/deliverable2.c.obj: ../deliverable2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/readS.dir/deliverable2.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\readS.dir\deliverable2.c.obj   -c C:\Users\eldre\CLionProjects\TestProject\deliverable2.c
 
-CMakeFiles/readS.dir/readS.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readS.dir/readS.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eldre\CLionProjects\TestProject\readS.c > CMakeFiles\readS.dir\readS.c.i
+CMakeFiles/readS.dir/deliverable2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/readS.dir/deliverable2.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eldre\CLionProjects\TestProject\deliverable2.c > CMakeFiles\readS.dir\deliverable2.c.i
 
-CMakeFiles/readS.dir/readS.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readS.dir/readS.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eldre\CLionProjects\TestProject\readS.c -o CMakeFiles\readS.dir\readS.c.s
+CMakeFiles/readS.dir/deliverable2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/readS.dir/deliverable2.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eldre\CLionProjects\TestProject\deliverable2.c -o CMakeFiles\readS.dir\deliverable2.c.s
 
 # Object files for target readS
 readS_OBJECTS = \
-"CMakeFiles/readS.dir/readS.c.obj"
+"CMakeFiles/readS.dir/deliverable2.c.obj"
 
 # External object files for target readS
 readS_EXTERNAL_OBJECTS =
 
-readS.exe: CMakeFiles/readS.dir/readS.c.obj
+readS.exe: CMakeFiles/readS.dir/deliverable2.c.obj
 readS.exe: CMakeFiles/readS.dir/build.make
 readS.exe: CMakeFiles/readS.dir/linklibs.rsp
 readS.exe: CMakeFiles/readS.dir/objects1.rsp

@@ -11,6 +11,7 @@ int main() {
     }
 }
 
+
 int readS(int c) {
 
     int a;

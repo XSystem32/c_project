@@ -3,6 +3,6 @@ project(TestProject C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(main main.c)
-add_executable(readS readS.c)
-add_executable(primeNumber primeNumber.c)
+add_executable(main deliverable5.c)
+add_executable(readS deliverable2.c)
+add_executable(primeNumber deliverable3and4.c)

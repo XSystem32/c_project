@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/primeNumber.dir/primeNumber.c.obj"
+  "CMakeFiles/primeNumber.dir/deliverable3and4.c.obj"
   "libprimeNumber.dll.a"
   "primeNumber.exe"
   "primeNumber.exe.manifest"

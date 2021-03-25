@@ -146,14 +146,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/main.c">
-			<Option target="main"/>
+		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/deliverable2.c">
+			<Option target="readS"/>
 		</Unit>
-		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/primeNumber.c">
+		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/deliverable3and4.c">
 			<Option target="primeNumber"/>
 		</Unit>
-		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/readS.c">
-			<Option target="readS"/>
+		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/deliverable5.c">
+			<Option target="main"/>
 		</Unit>
 		<Unit filename="C:/Users/eldre/CLionProjects/TestProject/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

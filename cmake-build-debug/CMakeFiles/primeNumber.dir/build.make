@@ -76,27 +76,27 @@ include CMakeFiles/primeNumber.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/primeNumber.dir/flags.make
 
-CMakeFiles/primeNumber.dir/primeNumber.c.obj: CMakeFiles/primeNumber.dir/flags.make
-CMakeFiles/primeNumber.dir/primeNumber.c.obj: ../primeNumber.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/primeNumber.dir/primeNumber.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\primeNumber.dir\primeNumber.c.obj   -c C:\Users\eldre\CLionProjects\TestProject\primeNumber.c
+CMakeFiles/primeNumber.dir/deliverable3and4.c.obj: CMakeFiles/primeNumber.dir/flags.make
+CMakeFiles/primeNumber.dir/deliverable3and4.c.obj: ../deliverable3and4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eldre\CLionProjects\TestProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/primeNumber.dir/deliverable3and4.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\primeNumber.dir\deliverable3and4.c.obj   -c C:\Users\eldre\CLionProjects\TestProject\deliverable3and4.c
 
-CMakeFiles/primeNumber.dir/primeNumber.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/primeNumber.dir/primeNumber.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eldre\CLionProjects\TestProject\primeNumber.c > CMakeFiles\primeNumber.dir\primeNumber.c.i
+CMakeFiles/primeNumber.dir/deliverable3and4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/primeNumber.dir/deliverable3and4.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eldre\CLionProjects\TestProject\deliverable3and4.c > CMakeFiles\primeNumber.dir\deliverable3and4.c.i
 
-CMakeFiles/primeNumber.dir/primeNumber.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/primeNumber.dir/primeNumber.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eldre\CLionProjects\TestProject\primeNumber.c -o CMakeFiles\primeNumber.dir\primeNumber.c.s
+CMakeFiles/primeNumber.dir/deliverable3and4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/primeNumber.dir/deliverable3and4.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eldre\CLionProjects\TestProject\deliverable3and4.c -o CMakeFiles\primeNumber.dir\deliverable3and4.c.s
 
 # Object files for target primeNumber
 primeNumber_OBJECTS = \
-"CMakeFiles/primeNumber.dir/primeNumber.c.obj"
+"CMakeFiles/primeNumber.dir/deliverable3and4.c.obj"
 
 # External object files for target primeNumber
 primeNumber_EXTERNAL_OBJECTS =
 
-primeNumber.exe: CMakeFiles/primeNumber.dir/primeNumber.c.obj
+primeNumber.exe: CMakeFiles/primeNumber.dir/deliverable3and4.c.obj
 primeNumber.exe: CMakeFiles/primeNumber.dir/build.make
 primeNumber.exe: CMakeFiles/primeNumber.dir/linklibs.rsp
 primeNumber.exe: CMakeFiles/primeNumber.dir/objects1.rsp
